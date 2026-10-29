@@ -1,0 +1,145 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="robots" content="noindex, nofollow">
+<title>The Yusuf Daily</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+body{margin:0}
+/* Layout: personal evening edition — masthead, then a two-column grid of sections, single column on phones */
+:root{
+  --paper:#f6f7f4; --ink:#1d2430; --muted:#5b6472; --rule:#d5d9d2;
+  --accent:#b5651d; --accent-soft:#f3e4d3; --card:#ffffff;
+  --display:"Young Serif", Georgia, "Times New Roman", serif;
+  --body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14181f; --ink:#e7e9ec; --muted:#9aa3b0; --rule:#2c333d;
+  --accent:#e09a55; --accent-soft:#2e2318; --card:#1b2029; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#14181f; --ink:#e7e9ec; --muted:#9aa3b0; --rule:#2c333d;
+  --accent:#e09a55; --accent-soft:#2e2318; --card:#1b2029; color-scheme:dark}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55}
+.wrap{max-width:1080px;margin:0 auto;padding-block:28px 56px;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+header.mast{display:grid;gap:6px;padding-bottom:18px;border-bottom:3px double var(--rule);margin-bottom:22px}
+.edline{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;font-family:var(--mono);font-size:12.5px;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(40px,8vw,76px);line-height:1;margin:6px 0 2px;text-wrap:balance}
+h1 em{font-style:normal;color:var(--accent)}
+.greet{font-size:18px;color:var(--muted);max-width:62ch;margin:0}
+.lead{background:var(--accent-soft);border-radius:6px;padding:18px 20px;margin-bottom:26px;display:grid;gap:6px}
+.lead .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.lead h2{font-family:var(--display);font-weight:400;font-size:clamp(24px,4vw,32px);line-height:1.15;margin:0;text-wrap:balance}
+.lead p{margin:0;max-width:70ch}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 40px}
+@media (max-width:760px){.grid{grid-template-columns:1fr}}
+section{min-width:0}
+section h3{font-family:var(--mono);font-weight:500;font-size:13px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--accent);margin:0 0 10px;padding-bottom:6px;border-bottom:1px solid var(--rule);display:flex;justify-content:space-between;gap:8px}
+section h3 span{color:var(--muted)}
+ul.items{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+ul.items li b{display:block;font-weight:700;line-height:1.3}
+ul.items li p{margin:2px 0 0;color:var(--muted);font-size:16px}
+.ticker{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+.tick{background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:8px 12px;font-family:var(--mono);font-size:14px;font-variant-numeric:tabular-nums}
+.tick small{display:block;font-family:var(--body);font-size:12px;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
+.up{color:#2f8a4f}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .up{color:#6cc28b}}
+:root[data-theme="dark"] .up{color:#6cc28b}
+.fun{grid-column:1/-1;background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:20px}
+.fun h4{font-family:var(--display);font-weight:400;font-size:24px;margin:0 0 6px;text-wrap:balance}
+.fun p{margin:0 0 8px;max-width:72ch}
+.fun .q{font-style:italic;color:var(--muted)}
+.src{font-size:13px;color:var(--muted);margin-top:10px}
+.src a{color:var(--muted)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+footer{margin-top:36px;padding-top:14px;border-top:1px solid var(--rule);font-size:13.5px;color:var(--muted)}
+</style></head><body>
+
+<div class="wrap">
+  <header class="mast">
+    <div class="edline"><span>Thursday, 29 October 2026</span><span>Morning edition · No. 1</span></div>
+    <h1>The Yusuf <em>Daily</em></h1>
+  </header>
+
+  <div class="lead">
+    <span class="kicker">Top story</span>
+    <h2>Spain mourns 68 dead after its second high-speed rail disaster this year</h2>
+    <p>A Renfe train carrying nearly 400 passengers ran into the back of a stationary Iryo train near Urda, in Toledo province, on Wednesday. Dozens more were injured, rescuers were still searching the carriages for survivors on Thursday, and the country has begun three days of mourning. The crash has reopened questions about the safety of Spain's rail network.</p>
+  </div>
+
+  <div class="grid">
+    <section>
+      <h3>World in brief <span>05</span></h3>
+      <ul class="items">
+        <li><b>Israel's election ends in deadlock</b><p>With about 90% of votes counted, Netanyahu's Likud is narrowly ahead of Gadi Eisenkot's new party, but neither has a majority. Netanyahu has alleged fraud.</p></li>
+        <li><b>Bolsonaro's son leaves Brazil after defeat</b><p>Flavio Bolsonaro flew to Florida and claims the vote was stolen. Brazil's top electoral court says the election was run normally and lawfully.</p></li>
+        <li><b>UN again calls for end to US embargo on Cuba</b><p>The General Assembly vote was 130 for, 17 against, 25 abstaining. The US expelled a Cuban diplomat after a shouting match at UN headquarters.</p></li>
+        <li><b>North Korea fires 10 ballistic missiles</b><p>South Korea's military said the short-range missiles were launched from Wonsan into the sea off the east coast.</p></li>
+        <li><b>US economy watched before midterms</b><p>A GDP report is due days before the US midterm elections; economists expect growth but call it fragile.</p></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>India <span>05</span></h3>
+      <ul class="items">
+        <li><b>3% DA hike for central staff and pensioners</b><p>The Union Cabinet approved the rise, backdated to 1 July 2026, at a cost of about ₹10,016 crore.</p></li>
+        <li><b>22 Indians killed in West Asia conflict since February</b><p>The MEA said 14 of them were seafarers and that it remains in touch with Indians in the Gulf.</p></li>
+        <li><b>Cyclone Arnab weakens</b><p>The storm lost strength after making landfall in Andhra Pradesh.</p></li>
+        <li><b>Rajnath Singh raises F-16 concern with US</b><p>India objected to Washington's support package for Pakistan's F-16 fleet.</p></li>
+        <li><b>100% ethanol cars get a legal path</b><p>Transport rules now allow E100 fuel in vehicles certified as flex-fuel.</p></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Kerala <span>05</span></h3>
+      <ul class="items">
+        <li><b>State drops ₹1,500 crore loan over high interest</b><p>Investors wanted 8.5% on Kerala's 14-year bonds, so the government pulled out and is looking for other ways to pay salaries next week.</p></li>
+        <li><b>IFFK goes round-the-clock</b><p>The 31st film festival, 11–18 December in Thiruvananthapuram, will run screenings day and night at Tagore Theatre.</p></li>
+        <li><b>SFI sweeps Calicut University polls</b><p>It won all nine union seats. After clashes, classes are suspended on 29–30 October and students told to leave hostels until 2 November.</p></li>
+        <li><b>Child rights panel probes Alappuzha baby-sale claim</b><p>A case has been registered over reports of a gang buying and reselling newborns near the medical college.</p></li>
+        <li><b>Record at state school sports meet</b><p>Alappuzha's Athul broke a 15-year-old meet record to win the 100m in Kozhikode. The meet ends on 31 October.</p></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Sports <span>05</span></h3>
+      <ul class="items">
+        <li><b>Brewers win their first World Series</b><p>Milwaukee, the smallest market in Major League Baseball, beat the Tampa Bay Rays for the franchise's first title.</p></li>
+        <li><b>India women sweep Zimbabwe 3–0</b><p>Vaishnavi took five wickets as Zimbabwe were bowled out for 131 in Vadodara; fifties from Rawal and Shafali sealed it.</p></li>
+        <li><b>Ferguson out of NZ's T20Is in India</b><p>The fast bowler is injured; the ODI series starts on 4 November.</p></li>
+        <li><b>Hockey tonight: India vs China</b><p>Asian Champions Trophy match at 7:30 pm IST on Star Sports.</p></li>
+        <li><b>League Cup: Liverpool beat Chelsea</b><p>Manchester City also went through after a scare.</p></li>
+      </ul>
+    </section>
+
+    <section style="grid-column:1/-1">
+      <h3>Business <span>04</span></h3>
+      <div class="ticker">
+        <div class="tick"><small>Sensex close</small>74,151.04 <span class="up">▲ 905 (1.24%)</span></div>
+        <div class="tick"><small>Nifty 50 close</small>22,936.75 <span class="up">▲ 238 (1.05%)</span></div>
+        <div class="tick"><small>India 10-yr bond</small>7.44% <span>▲ ~30 bp in Oct</span></div>
+      </div>
+      <ul class="items">
+        <li><b>Markets rally after the US Fed holds rates</b><p>The Fed's pause, slightly lower crude prices and fresh institutional buying lifted Indian shares.</p></li>
+        <li><b>Government borrowing gets costlier</b><p>India's 10-year bond yield rose sharply this month amid tight liquidity and foreign outflows, which is also why Kerala's loan was priced so high.</p></li>
+        <li><b>Textile PLI scheme reopens 1 November</b><p>Applications run to 31 December and the scheme is extended to 2033–34.</p></li>
+        <li><b>India and Mexico start trade talks</b><p>The two countries opened negotiations on a preferential trade agreement.</p></li>
+      </ul>
+    </section>
+
+    <div class="fun">
+      <h3 style="font-family:var(--mono);font-weight:500;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:0 0 10px">Something to think about</h3>
+      <h4>A common salamander has been glowing all along</h4>
+      <p>Researchers found that Europe's black-and-yellow fire salamanders glow green and cyan under ultraviolet light. People have studied this animal for centuries, yet nobody noticed, because nobody looked with the right light.</p>
+      <p>In the same week, another team reported that spiders appear to sleep in stages, including something like the REM sleep linked to dreaming in humans.</p>
+      <p class="q">Question for the day: what in your own field is in plain sight but needs a different "light" (a new dataset, a new tool, a new angle) to be seen?</p>
+    </div>
+  </div>
+
+  <footer>
+    Prepared by Claude. A new edition replaces this one every morning at 7:00 am IST.<br>
+    Sources: <a href="https://www.npr.org/sections/news/">NPR</a> · <a href="https://www.10things.news/p/10-things-global-news-29th-october-e6a">10 Things</a> · <a href="https://wng.org/podcasts/thursday-morning-news-october-29-2026-1793209869">WORLD</a> · <a href="https://en.nhandan.vn/world-news-in-brief-october-29-post168425.html">Nhan Dan</a> · <a href="https://www.justsecurity.org/162389/early-edition-october-29-2026/">Just Security</a> · <a href="https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-ipo-updates-29th-october-2026">IndiaIPO</a> · <a href="https://indianopinion.org/today-in-india-29-october-2026/">Indian Opinion</a> · <a href="https://www.legacyias.com/the-hindu-upsc-news-analysis-for-29-october-2026/">The Hindu analysis</a> · <a href="https://gk365.in/daily-current-affairs/daily-gk-29th-oct-2026/">GK365</a> · <a href="https://www.onmanorama.com/news/kerala/2026/10/29/kerala-seeks-alternative-funds-for-salaries-after-scrapping-1-500-cr-borrowing-plan.html">Onmanorama</a> · <a href="https://www.cricinfo.com/cricket-news">ESPNcricinfo</a> · <a href="https://www.thedailystar.net/sports/more-sports/news/what-watch-tv-today-29-oct-2026-4310361">Daily Star</a> · <a href="https://www.latestly.com/agency-news/business-news-sensex-surges-905-points-nifty-closes-1-05-higher-as-fed-rate-pause-boosts-market-sentiment-7660853.html">ANI via LatestLY</a> · <a href="https://www.sciencedaily.com/">ScienceDaily</a>
+  </footer>
+</div>
+</body></html>
